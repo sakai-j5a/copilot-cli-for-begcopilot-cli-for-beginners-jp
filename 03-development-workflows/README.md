@@ -659,7 +659,7 @@ $(git diff main..HEAD)"
 
 ### Using /delegate for Background Tasks
 
-The `/delegate` command hands off work to the Copilot coding agent on GitHub. Use the `/delegate` slash command (or the `&` shortcut) to offload a well-defined task to a background agent.
+The `/delegate` command hands off work to the Copilot cloud agent on GitHub. Use the `/delegate` slash command (or the `&` shortcut) to offload a well-defined task to a background agent.
 
 ```bash
 copilot
