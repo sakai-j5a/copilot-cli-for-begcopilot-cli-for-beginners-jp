@@ -555,6 +555,36 @@ After completing the demos, try these variations:
 
 ---
 
+## 💡 Tip: Control Your CLI Session from Web or Mobile
+
+GitHub Copilot CLI now supports **remote sessions** (currently in public preview), letting you monitor and interact with a running CLI session from a web browser or the GitHub Mobile app — without being physically at your terminal.
+
+Start a remote session with the `--remote` flag:
+
+```bash
+copilot --remote
+```
+
+Copilot CLI will display a link and a QR code. Open the link on your phone or another browser tab to watch the session in real time, send follow-up prompts, review plans, and steer the agent — all remotely.
+
+You can also enable remote access from inside an active session at any time:
+
+```
+> /remote
+```
+
+**Why is this useful?**
+
+- Kick off a long-running refactor from your laptop, then check progress from your phone
+- Start a session at your desk and continue it from a different device
+- Share a read-only view with a colleague for async review
+
+> 🔒 **Your session is private**: only you can see or control it, even if someone else has the URL.
+
+> ⚠️ **Public preview**: remote sessions are available in Copilot CLI 1.0.24 and later. Run `/update` to make sure you have the latest version. Organization admins may need to enable the feature for Copilot Business or Enterprise accounts. See the [announcement](https://github.blog/changelog/2026-04-13-remote-control-cli-sessions-on-web-and-mobile-in-public-preview/) for details.
+
+---
+
 ## 📝 Assignment
 
 ### Main Challenge: Improve the Book App Utilities
